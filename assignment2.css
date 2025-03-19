@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* body {
+    color: #f9f9f9;
+} */
+
+#main_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 40px 40px;
+    gap: 20px;
+
+}
+
+.thumbnail {
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.title {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.channel_name {
+    color: rgb(181, 94, 94);
+
+}
+
+#search_box {
+    margin-left: 30%;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#search_button {
+    padding: 5px 15px;
+    font-size: 30px;
+}
